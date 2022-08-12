@@ -5,9 +5,7 @@ int main() {
 	int n;
 	printf("Nhap so nguyen n: ");
 	scanf("%d", &n);
-	if(n < 2) {
-		printf("%d khong la so nguyen to.\n", n);
-	} else {
+	
 		int i;
 		int mark = 1;
 		for(i = 2; i < n; i++)  {
@@ -20,6 +18,4 @@ int main() {
 			printf("%d la so nguyen to.\n", n);
 		}
 		
-	}
-	return 0;
 }
